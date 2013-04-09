@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+	function load()
+	{
+		var uri = window.location.href;
+		var lookfor = "access_token=";
+		var b = uri.indexOf(lookfor) + lookfor.length;
+		var e = uri.indexOf("&",b);
+		
+		var access_token = uri.substring(b,e);
+		console.log("TOKEN",access_token);
+		window.localStorage["access_token"] = access_token;
+		
+		window.location = "http://localhost:8000/index.html";
+	}
+</script>
+</head>
+
+<body onload="load()">
+	
+</body>
+</html>
+
+
