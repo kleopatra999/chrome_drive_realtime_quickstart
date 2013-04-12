@@ -4,7 +4,7 @@
 
 A replicate of the [Google Drive Realtime SDK Quickstart](https://developers.google.com/drive/realtime/realtime-quickstart) for a Chrome Packaged App.
 
-Please see wiki for all the [trials and tribulations](https://github.com/damondouglas/chrome_drive_realtime_quickstart/wiki/Trials-and-Tribulations) that went into building this example as well as [remaining bugs](https://github.com/damondouglas/chrome_drive_realtime_quickstart/wiki/Known-Bugs), should this serve as an example for a real application.
+Please see wiki for all the [trials and tribulations](https://github.com/damondouglas/chrome_drive_realtime_quickstart/wiki/Trials-and-Tribulations) that went into building this example as well as [remaining bugs](https://github.com/damondouglas/chrome_drive_realtime_quickstart/wiki/Known-Bugs), should someone use this as a basis for a real application.
 
 ### Licenses
 
